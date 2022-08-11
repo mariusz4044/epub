@@ -1,0 +1,27 @@
+{
+  "polish": {
+    "Table_of_Contents": {
+    },
+    "Change_the_font_size": {
+      "first": "Wybór rozmiaru czcionki",
+      "second": "Bardzo duża",
+      "third": "Duża",
+      "fourth": "Średnia",
+      "fiveth": "Mała",
+      "sixth": "Bardzo mała"
+    },
+    "Page_layout":{
+      "first": "Układ strony",
+      "second": "Cała strona",
+      "third": "Cała strona",
+      "fourth": "Cała strona",
+      "fiveth": "Zarządzanie oknem",
+      "sixth": "Tryb pełnoekranowy"
+    },
+    "Help": {
+		"left": "Spis treści",
+		"right_first": "Zmiana rozmiaru czcionki",
+		"right_second": "Ustawienia"
+	}
+  }
+}

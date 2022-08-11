@@ -1,0 +1,166 @@
+#tab-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    flex-direction: column;
+    grid-gap: 10px;
+    margin-top: 100px;
+    z-index: 1001;
+    color: #cccccc;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tab-number-icon {
+    display: flex;
+    width: 22px !important;
+    font-size: 40px;
+    margin-left: -10px;
+    padding-right: 15px !important;
+}
+
+#tab-number-icon i {
+    position: relative;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+#tab-number-icon b {
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+}
+
+#new-tab {
+    width: 30px;
+    height: 25px;
+    position: relative;
+    top: 3px;
+    right: 2px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #c8c8c8;
+    transition: all 650ms ease;
+}
+
+
+.active-menu {
+    border: 1px solid #9795952f !important;
+    color: #666363b7 !important;
+}
+
+.animate-tab-btn {
+    animation: animate1 0.5s ease-in-out;
+}
+
+
+#save:active, #remove:active{
+    transform: scale(0.8);
+}
+
+.add-tab-btn {
+    padding: 2px;
+    border-color: #ececec !important;
+}
+
+#page-info {
+    position: absolute;
+    right: 67px;
+    font-size: 11px;
+    width: 72px !important;
+    height: 1px !important;
+    top: 5px;
+    background: #0000007a;
+    display: flex;
+    justify-content: center;
+}
+
+#flag-box {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    top: 18px;
+}
+
+
+#tab-box div {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+    font-weight: 600;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+    width: 400px;
+    padding: 10px;
+}
+
+.active-flag {
+    border: 1px solid #000000;
+}
+
+textarea {
+    width: 300px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    margin-right: 5px;
+    resize: none;
+    border:1px groove black;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.tab-n #new-tab b {
+    margin-left: 0px;
+}
+
+.tab-n #new-tab i {
+    padding: 4px;
+}
+
+.tab-n #new-tab {
+    display: flex;
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: -7px;
+    text-align: center !important;
+    color:black;
+}
+
+.tab-n {
+    transition: all 1s;
+    opacity: 0.5;
+    margin-right: -730px;
+    position: relative;
+}
+
+.tab-n:hover {
+    margin-right: -700px;
+    opacity: 1 !important;
+}
+
+
+
+
+@keyframes animate1 {
+    0% {
+        transform:scale(0.7)
+    }
+    100% {
+        transform:scale(1)
+    }
+}

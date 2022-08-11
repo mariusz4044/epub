@@ -1,0 +1,32 @@
+{
+  "germany": {
+    "Table_of_Contents": {
+      "first": "Zuhause",
+      "second": "Anfang des Liedes",
+      "third": "Verweise",
+      "fourth": "Unterstützen Sie das freie Lesen",
+      "fiveth": "Leitartikel Seite"
+    },
+    "Change_the_font_size": {
+      "first": "Auswahl der Schriftgröße",
+      "second": "Sehr groß",
+      "third": "Groß",
+      "fourth": "Durchschnittlich",
+      "fiveth": "Klein",
+      "sixth": "Sehr klein"
+    },
+    "Page_layout":{
+      "first": "Seitenlayout",
+      "second": "Ganze Seite",
+      "third": "Ganze Seite",
+      "fourth": "Ganze Seite",
+      "fiveth": "Fensterverwaltung",
+      "sixth": "Vollbildmodus"
+    },
+    "Help": {
+		"left": "Inhaltsverzeichnis",
+		"right_first": "Ändern Sie die Schriftgröße",
+		"right_second": "die Einstellungen"
+	}
+  }
+}

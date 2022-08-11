@@ -1,0 +1,32 @@
+{
+  "english": {
+    "Table_of_Contents": {
+      "first": "Title page",
+      "second": "Begin of the book",
+      "third": "Footnotes",
+      "fourth": "Support free reading",
+      "fiveth": "Editorial page"
+    },
+    "Change_the_font_size": {
+      "first": "Font size selection",
+      "second": "Very big",
+      "third": "Big",
+      "fourth": "Medium",
+      "fiveth": "Small",
+      "sixth": "Very small"
+    },
+    "Page_layout":{
+      "first": "Page layout",
+      "second": "Whole page",
+      "third": "Whole page",
+      "fourth": "Whole page",
+      "fiveth": "Window managment",
+      "sixth": "Full screen mode"
+    },
+    "Help": {
+		"left": "Table of contents",
+		"right_first": "Change font size",
+		"right_second": "Settings"
+	}
+  }
+}
